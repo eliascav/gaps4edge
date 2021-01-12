@@ -1,2 +1,2 @@
 # gaps4edge
-Google Apps launcher для MS Edge - Chromium
+Google Apps launcher for MS Edge - Chromium
