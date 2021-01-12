@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<!--Начало первого блока объяснения кода-->
+<head>
+  <meta charset="utf-8">
+  <style type="text/css">
+  	.container{
+  		display: table;
+  		margin: 10px;
+  		width: 380px;
+  	}
+  	.table-cell{
+  		display: table-cell;	
+  	}
+  	.table-row{
+  		display: table-row;
+  	}
+  	.card{
+  		width: 96px;
+  		height: auto;
+  		border-radius: 5px;
+  		text-align: center;
+  		padding-top: 7px;
+  		padding-left: 7px;
+  		padding-right: 7px;
+  	}
+  	.card:hover{
+  		background-color: #dbe2f5;
+  		cursor: pointer;
+  	}
+  	.app-img{
+  		width: 48px;
+  		height: auto;
+  	}
+  	.app-text{
+  		color: #202124;
+    	font-family: 'Google Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    	font-size: 14px;
+    	overflow: hidden;
+    	text-overflow: ellipsis;
+    	white-space: nowrap;
+    	margin-top: 1px;
+  	}
+  	.card-info{
+  		font-family: 'Google Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    	font-size: 14px;	
+    	text-align: center;
+    	padding: 5px;
+  	}
+  	a{
+  		color: #1a73e8;
+  	}
+  </style>
+  <script src="popup.js"></script>
+</head>
+	<div class="container">
+		<div class="table-row">
+			<div class="card table-cell" id="gmail">
+				<img src="img/gmail.png" class="app-img">
+				<p class="app-text">Почта</p>
+			</div>
+			<div class="card table-cell" id="gdrive">
+				<img src="img/gdrive.png" class="app-img">
+				<p class="app-text">Диск</p>
+			</div>
+			<div class="card table-cell" id="calendar">
+				<img src="img/gcalendar.png" class="app-img">
+				<p class="app-text">Календарь</p>
+			</div>	
+			<div class="card table-cell" id="meet">
+				<img src="img/gmeet.png" class="app-img">
+				<p class="app-text">Meet</p>
+			</div>
+		</div>
+		<div class="table-row">
+			<div class="card table-cell" id="docs">
+				<img src="img/gdocs.png" class="app-img">
+				<p class="app-text">Документы</p>
+			</div>
+			<div class="card table-cell" id="sheet">
+				<img src="img/gsheet.png" class="app-img">
+				<p class="app-text">Таблицы</p>
+			</div>
+			<div class="card table-cell" id="present">
+				<img src="img/gpresent.png" class="app-img">
+				<p class="app-text">Презентиации</p>
+			</div>
+			<div class="card table-cell" id="notes">
+				<img src="img/gnotes.png" class="app-img">
+				<p class="app-text">Заметки</p>
+			</div>
+		</div>	
+	</div>
+	
+	<div class="container">
+		<hr align="center" size="2" color="#ff0000" />
+		<div class="card-info">
+			<a href="#" id="ghub">Все исходники расширения доступнына сайте https://github.com/eliascav/gaps4edge</a>	
+		</div>
+		
+	</div>
+</body>
+</html>
